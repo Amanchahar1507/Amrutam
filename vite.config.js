@@ -6,6 +6,8 @@ export default defineConfig({
   preview: {
     host: true,
     port: process.env.PORT || 4173,
-    allowedHosts: ["amrutam-o74k.onrender.com"]
+    allowedHosts: [
+      "*.onrender.com"
+    ]
   }
 });
