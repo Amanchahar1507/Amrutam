@@ -7,8 +7,9 @@
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "start": "vite preview --host --port $PORT"
+  "start": "node scripts/start-preview.js"
 }
+
 ,
   "dependencies": {
     "react": "^19.2.0",
